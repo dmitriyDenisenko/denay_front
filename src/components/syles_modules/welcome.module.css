@@ -1,0 +1,143 @@
+.welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border: solid;
+}
+
+.text {
+    width: 573px;
+    text-align: center;
+    font-family: "PP Pangram Sans", sans-serif;
+    font-size: 64px;
+    color: black;
+    line-height: 72.96px;
+    font-weight: bold;
+    margin-bottom: 20px; /* Adjust margin */
+}
+
+.buttons {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
+    text-decoration: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 102.5px;
+    font-family: "PP Pangram Sans", sans-serif;
+    font-weight: bold;
+    color: black;
+    background-color: #48A7FF;
+    text-align: center;
+    vertical-align: center;
+    padding: 10px;
+    width: 297px;
+    height: 47px;
+}
+
+
+
+.buttons:hover {
+    color: black;
+    background-color: #D7D7D7;
+}
+
+.choose_button {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
+    text-decoration: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 6.5px;
+    font-family: "PP Pangram Sans", sans-serif;
+    font-weight: bold;
+    color: black;
+    background-color: #48A7FF;
+    text-align: center;
+    vertical-align: center;
+    padding: 10px;
+    width: 400px;
+    height: 47px;
+    border-radius: 5px;
+}
+
+.choose_button:hover {
+    color: black;
+    background-color: #D7D7D7;
+}
+
+.div_flex {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 297px;
+    height: 47px;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin: 4px;
+    text-align: center;
+    font-family: "PP Pangram Sans", sans-serif;
+}
+
+.buttons {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
+    text-decoration: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 102.5px;
+    font-family: "PP Pangram Sans", sans-serif;
+    font-weight: bold;
+    color: black;
+    background-color: #48A7FF;
+    text-align: center;
+    vertical-align: center;
+    padding: 10px;
+    width: 297px;
+    height: 47px;
+}
+
+.back_button{
+    align-self: flex-start;
+
+}
+
+.text_create {
+    text-align: center;
+    font-family: "PP Pangram Sans", sans-serif;
+    font-size: 64px;
+    color: black;
+    line-height: 72.96px;
+    font-weight: bold;
+    margin-bottom: 80px; /* Adjust margin */
+}
+
+.buttons_create {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
+    text-decoration: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60.5px;
+    font-family: "PP Pangram Sans", sans-serif;
+    font-weight: bold;
+    color: black;
+    background-color: #48A7FF;
+    text-align: center;
+    vertical-align: center;
+
+    width: 315px;
+    height: 47px;
+}

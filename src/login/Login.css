@@ -1,0 +1,36 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.welcome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+.text {
+    align-self: flex-start;
+    width: 573px;
+    font-family: "PP Pangram Sans", sans-serif;
+    font-size: 64px;
+    color: black;
+    line-height: 72.96px;
+    font-weight: bold;
+    /*margin-top: -200px;*/
+    margin-bottom: 102.5px;
+}
+
+.buttons {
+    margin-top: 102.5px;
+    width: 297px;
+    height: 47px;
+    background-color: #48A7FF;
+    font-family: "PP Pangram Sans", sans-serif;
+    font-weight: bold;
+}
